@@ -71,34 +71,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3like.3comment.Send to 6 people"
-            android:layout_below="@id/ll_user_action"
             android:layout_marginTop="8dp"
             android:layout_marginLeft="8dp"
             />
-        <LinearLayout
-            android:id="@+id/ll_user_action"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_below="@id/img_news">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/ll_user_action"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_below="@id/img_news">-->
 
-            <FrameLayout
-                android:id="@+id/fl_comment"
-                android:layout_width="1dp"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:id="@+id/btn_comment"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="comment"
-                    android:drawableLeft="@drawable/ic_chat_bubble_outline_black_24dp"
-                    android:drawablePadding="16dp"
-                    android:textColor="@color/primary"
-                    android:drawableTint="@color/primary"
-                    />
-            </FrameLayout>
+            <!--<FrameLayout-->
+                <!--android:id="@+id/fl_comment"-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<TextView-->
+                    <!--android:id="@+id/btn_comment"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="comment"-->
+                    <!--android:drawableLeft="@drawable/ic_chat_bubble_outline_black_24dp"-->
+                    <!--android:drawablePadding="16dp"-->
+                    <!--android:textColor="@color/primary"-->
+                    <!--android:drawableTint="@color/primary"-->
+                    <!--/>-->
+            <!--</FrameLayout>-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
     </RelativeLayout>
 </android.support.v7.widget.CardView>
